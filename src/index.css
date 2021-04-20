@@ -7,7 +7,28 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Board{
+  
+  height: 30.8rem;
+  width: 30.4rem;
+  margin: auto;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Square{
+  height: 10rem;
+  width: 10rem;
+  border: 1px solid black;
+}
+
+
+.Square:hover{
+  background-color: chocolate;
+  cursor: pointer;
+}
+.letter{
+  text-align: center;
+  margin-top: 40%;
+  font-size: 30px;
 }
